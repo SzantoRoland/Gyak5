@@ -1,0 +1,8 @@
+a = input("Kerem az a oldalt")
+b = input("kerem a b oldalt")
+c = input("Kerem a c oldalt")
+
+if (a < b + c or b < c + a or c < a + b):
+    print("A megadott szakaszok alkothatnak haromszoget")
+else: print(" Amegadott szakaszok nem alkothatnak haromszoget")
+
